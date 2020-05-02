@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="738.0" prefWidth="1017.0" style="-fx-background-color: #276c6a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fest4.FXMLDocument3Controller">
+   <children>
+      <AnchorPane layoutX="40.0" layoutY="38.0" prefHeight="670.0" prefWidth="940.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label fx:id="head" alignment="CENTER" contentDisplay="CENTER" layoutX="254.0" layoutY="32.0" prefHeight="103.0" prefWidth="423.0" style="-fx-background-color: #276c6a;" text="Upcoming Meetings" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label fx:id="first" alignment="TOP_LEFT" layoutX="40.0" layoutY="190.0" prefHeight="65.0" prefWidth="220.0" text="Meeting 1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="second" alignment="TOP_LEFT" layoutX="40.0" layoutY="270.0" prefHeight="65.0" prefWidth="220.0" text="Meeting 2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="third" alignment="TOP_LEFT" layoutX="40.0" layoutY="350.0" prefHeight="65.0" prefWidth="220.0" text="Meeting 3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="fourth" alignment="TOP_LEFT" layoutX="40.0" layoutY="430.0" prefHeight="65.0" prefWidth="220.0" text="Meeting 4">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="fifth" alignment="TOP_LEFT" layoutX="40.0" layoutY="510.0" prefHeight="65.0" prefWidth="220.0" text="Meeting 5">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="firstdate" alignment="TOP_LEFT" layoutX="640.0" layoutY="190.0" prefHeight="65.0" prefWidth="220.0" text="Date 1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="seconddate" alignment="TOP_LEFT" layoutX="640.0" layoutY="270.0" prefHeight="65.0" prefWidth="220.0" text="Date 2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="thirddate" alignment="TOP_LEFT" layoutX="640.0" layoutY="350.0" prefHeight="65.0" prefWidth="220.0" text="Date 3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="fourthdate" alignment="TOP_LEFT" layoutX="640.0" layoutY="430.0" prefHeight="65.0" prefWidth="220.0" text="Date  4">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="fifthdate" alignment="TOP_LEFT" layoutX="640.0" layoutY="510.0" prefHeight="65.0" prefWidth="220.0" text="Date 5">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="back" layoutX="120.0" layoutY="578.0" mnemonicParsing="false" onMouseClicked="#selecttypescreenopen" prefHeight="50.0" prefWidth="170.0" style="-fx-background-color: #3FADA8;" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="update" layoutX="380.0" layoutY="578.0" mnemonicParsing="false" onMouseClicked="#updatescreenopen" prefHeight="50.0" prefWidth="170.0" style="-fx-background-color: #3FADA8;" text="Update" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="notifier" layoutX="640.0" layoutY="578.0" mnemonicParsing="false" onMouseClicked="#notifierr" prefHeight="50.0" prefWidth="170.0" style="-fx-background-color: #3FADA8;" text="Notify" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

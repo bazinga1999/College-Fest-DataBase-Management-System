@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="730.0" prefWidth="1040.0" style="-fx-background-color: #276c6a;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="message.Fest4Controller">
+   <children>
+      <AnchorPane layoutX="40.0" layoutY="40.0" prefHeight="668.0" prefWidth="966.0" style="-fx-background-color: #ffffff;" />
+      <AnchorPane fx:id="recievedpane" layoutX="40.0" layoutY="40.0" prefHeight="603.0" prefWidth="526.0">
+         <children>
+            <Button fx:id="newbutton" layoutX="193.0" layoutY="51.0" mnemonicParsing="false" onMouseClicked="#opensendpane" prefHeight="45.0" prefWidth="140.0" style="-fx-background-color: #3fada8;" text="New Message" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <TextField editable="false" layoutX="173.0" layoutY="152.0" prefHeight="40.0" prefWidth="186.0" text="Recieved Messages">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </TextField>
+            <Label fx:id="recievetextarea" alignment="TOP_LEFT" layoutX="21.0" layoutY="242.0" prefHeight="319.0" prefWidth="490.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+         </children></AnchorPane>
+      <AnchorPane fx:id="sendpane" disable="true" layoutX="538.0" layoutY="45.0" opacity="0.0" prefHeight="590.0" prefWidth="468.0">
+         <children>
+            <TextField fx:id="recievernamearea" layoutX="115.0" layoutY="25.0" prefHeight="40.0" prefWidth="345.0" />
+            <TextArea fx:id="sendmessagearea" layoutX="14.0" layoutY="95.0" prefHeight="438.0" prefWidth="434.0" />
+            <Button fx:id="sendbutton" layoutX="206.0" layoutY="550.0" mnemonicParsing="false" onMouseClicked="#sendmessage" prefHeight="40.0" prefWidth="82.0" style="-fx-background-color: #3fada8;" text="Send" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font></Button>
+            <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="25.0" prefHeight="31.0" prefWidth="90.0" text="Send To:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="442.0" layoutY="649.0" mnemonicParsing="false" onMouseClicked="#goback" prefHeight="45.0" prefWidth="140.0" style="-fx-background-color: #3fada8;" text="Go Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
